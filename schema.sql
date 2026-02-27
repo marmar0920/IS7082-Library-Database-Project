@@ -2,7 +2,7 @@
 CREATE DATABASE IF NOT EXISTS neighborhood_library;
 USE neighborhood_library;
 
--- DROP TABLES (In case you need to re-run the script to start over)
+-- DROP TABLES 
 DROP TABLE IF EXISTS Loans;
 DROP TABLE IF EXISTS Books;
 DROP TABLE IF EXISTS Members;
